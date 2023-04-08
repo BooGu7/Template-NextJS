@@ -1,0 +1,17 @@
+{
+  "landingpage": {},
+  "common": {
+    "Recipient name": "Họ và tên",
+    "Recipient phone": "Số điện thoại",
+    "Province": "Thành phố",
+    "District": "Quận",
+    "Ward": "Phường",
+    "Product Name": "Tên sản phẩm",
+    "Amount": "Số lượng",
+    "Money": "Giá tiền",
+    "Weight, kg": "Khối lượng, kg",
+    "Length, cm": "Chiều dài, cm",
+    "Width, cm": "Chiều rộng, cm",
+    "Height, cm": "Chiều cao, cm"
+  }
+}

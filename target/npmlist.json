@@ -1,0 +1,1 @@
+{"version":"0.1.0","name":"my-app","dependencies":{"@reduxjs/toolkit":{"version":"1.8.5"},"antd":{"version":"4.23.2"},"axios":{"version":"0.27.2"},"next":{"version":"12.3.0"},"path-to-regexp":{"version":"6.2.1"},"qs":{"version":"6.11.0"},"react-dom":{"version":"18.2.0"},"react-redux":{"version":"8.0.4"},"react":{"version":"18.2.0"}}}

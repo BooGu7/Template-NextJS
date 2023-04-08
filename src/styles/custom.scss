@@ -1,0 +1,537 @@
+/* Set container-footer */
+.ant-layout .ant-layout-footer {
+  padding: 0px !important;
+  background-color: #414c58 !important;
+}
+
+/* Top Footer */
+.top-footer {
+  margin: 120px 150px 65px 150px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 40px !important;
+}
+.top-col {
+  border: 1px solid red !important;
+}
+.container-contact,
+.container-services,
+.container-navigation {
+  width: 353.33px !important;
+}
+.title-footer {
+  color: white !important;
+  margin: 0px !important;
+  margin-bottom: 18px !important;
+  outline: unset !important;
+}
+.content-contact,
+.container-des,
+.adress-contact {
+  color: white !important;
+  margin: 0px !important;
+  margin-bottom: 18px !important;
+}
+.content-footer {
+  color: white !important;
+  margin: 0px !important;
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+
+/* Bottom Footer */
+.bottom-footer {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  height: 106px !important;
+  margin: 0px 150px !important;
+  position: relative !important;
+}
+.container-bottom {
+  display: inline-flex !important;
+}
+
+.credit-footer {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  line-height: 15px !important;
+  color: #ffffff !important;
+  transform: translateY(50%) !important;
+}
+
+.icon-footer {
+  position: absolute !important;
+  right: 0 !important;
+  gap: 10px !important;
+}
+
+/* Overview */
+.container-content {
+  width: 100% !important;
+}
+/* Top content*/
+
+.top-container-content {
+  padding: 105px 150px 23px 150px !important;
+  background-color: var(--color-left-content) !important;
+}
+.col-container-content h2 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.container-content,
+.top-container-content,
+.col-container-content h2 {
+  background-color: var(--color-left-content) !important;
+}
+
+/* Body content */
+
+/* Overview */
+.body-container-content,
+.ant-input,
+.ant-input-group .ant-input-group-addon {
+  background-color: var(--color-body-content) !important;
+}
+.body-container-content {
+  background-color: var(--color-body-content) !important;
+  padding: 50px 150px 107px 150px !important;
+}
+
+/* Image Welcome */
+.logo-welcome {
+  display: block !important;
+}
+
+/* Form register */
+/* Overview */
+.container-register {
+}
+/* Heading */
+.heading-register {
+  margin-top: 0px !important;
+  margin-bottom: 6px !important;
+}
+.body-describe {
+  margin: 0px !important;
+}
+/* Input */
+.form-register {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  float: right !important;
+}
+.form-nickname,
+.form-email,
+.form-phone,
+.form-password {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
+.form-nickname .ant-form-item-label,
+.form-email .ant-form-item-label,
+.form-phone .ant-form-item-label {
+  padding-bottom: 2px !important;
+}
+
+.input-nickname,
+.input-email,
+.input-phone {
+  max-width: 562px !important;
+}
+
+.ant-form-vertical .ant-form-item-label > label {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+// Input flags
+.ant-select-selector {
+  border-radius: 0px !important;
+  padding: 0px !important;
+}
+.ant-select-selection-item {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.ant-input {
+  width: 100% !important;
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+  padding: 10px 0px !important;
+  border-radius: 0px !important;
+  border-bottom: 2px solid rgba(123, 135, 148, 0.6) !important;
+  border: none;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+.ant-col-sm-8 {
+  max-width: 100% !important;
+}
+.item-select {
+  width: 68px !important;
+}
+.ant-input-group .ant-input-group-addon {
+  border-radius: 0px !important;
+  border-bottom: 2px solid rgba(123, 135, 148, 0.6) !important;
+  border: none;
+}
+.ant-input-group .ant-input {
+  width: 100% !important;
+  margin-left: 24px !important;
+}
+/* Card */
+
+.container-card {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
+.title-card {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: var(--color-black) !important;
+  margin-bottom: 24px !important;
+}
+
+.card-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 16px !important;
+}
+
+.ant-checkbox-disabled {
+  .ant-card {
+    cursor: not-allowed;
+  }
+}
+
+.card-list .ant-checkbox {
+  display: none !important;
+}
+
+.checkbox-container {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.title-pos {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.itemsCard {
+  width: 177px !important;
+  height: 122px !important;
+  margin: 0px !important;
+  padding: 8px 12px !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.active {
+  border: 2px solid #1890ff !important;
+}
+
+.itemsCard .ant-card-cover {
+  position: relative !important;
+  top: 0px !important;
+  height: 90px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  /* transform: translateY(50%) !important; */
+}
+.itemsCard .logo-POS {
+}
+
+.itemsCard .ant-card-body {
+  padding: 0px !important;
+  position: absolute !important;
+  right: 8.33% !important;
+  bottom: 8.33% !important;
+}
+/* Button SendForm */
+.btn-sendform {
+  position: absolute !important;
+  right: 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 12px 24px !important;
+  margin-top: 0px !important;
+  width: 163px !important;
+  height: 57px !important;
+  background-color: var(--color-btn) !important;
+  border-radius: 8px !important;
+}
+.btn-name {
+  margin: 0px !important;
+  color: white !important;
+}
+
+/* Header */
+.navbar {
+  width: 100% !important;
+  height: 80px !important;
+  padding: 15px 150px !important;
+  position: absolute !important;
+  top: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  background-color: #ffffff !important;
+}
+
+.ant-menu-vertical {
+  margin: 0px !important;
+}
+
+.navbar-col {
+  height: 100% !important;
+}
+
+/* Logo */
+.logo {
+  width: 200px !important;
+  height: 50.34px !important;
+}
+
+/* Menubar */
+.navbar li {
+  padding-inline: unset !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.itemMenu {
+  padding-inline: unset !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+  border-bottom: none !important;
+  background-color: #ffffff !important;
+}
+
+/* Body content */
+/* @import url(./components/) !important; */
+
+/* Overview */
+:root {
+  --color-grey: #7b8794 !important;
+  --color-black: #000000 !important;
+  --color-body-content: #ededef !important;
+  --color-left-content: #f2f2f4 !important;
+  --color-footer: #414c58 !important;
+  --color-btn: #009b79 !important;
+}
+* {
+  font-family: 'Karla', 'Prompt', sans-serif !important;
+}
+body {
+  max-width: 1440px !important;
+  margin: 0 auto !important;
+}
+
+/* Style heading */
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Prompt' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+}
+
+h5 {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+/* H1 style */
+
+h1 {
+  font-size: 46px !important;
+  line-height: 65px !important;
+}
+/* H2 style */
+
+h2 {
+  font-size: 26px !important;
+  line-height: 39px !important;
+}
+
+/* H3 style */
+
+h3 {
+  font-size: 22px !important;
+  line-height: 33px !important;
+}
+
+/* H4 style */
+
+h4 {
+  font-size: 14px !important;
+  line-height: 21px !important;
+}
+
+/* H5 style */
+
+h5 {
+  font-size: 16px !important;
+  line-height: 19px !important;
+}
+
+/* Title style */
+
+.title {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 50px !important;
+  color: var(--color-grey) !important;
+}
+
+/* Layout */
+
+.container-fluid {
+  position: relative !important;
+  padding: 0px 0px !important;
+}
+.ant-space {
+  display: unset !important;
+}
+
+// Login
+.ant-modal-root .ant-modal-mask {
+  background: rgba(0, 0, 0, 0.35) !important;
+}
+.container-modal {
+  position: fixed !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+  z-index: 3 !important;
+}
+.container-login {
+  position: absolute !important;
+  width: 614px !important;
+  height: 404px !important;
+  left: calc(50% - 614px / 2) !important;
+  top: 132px !important;
+  background: #ffffff !important;
+  box-shadow: -40px 40px 80px -8px rgba(145, 158, 171, 0.24) !important;
+  border-radius: 16px !important;
+  z-index: 4 !important;
+}
+
+.form-logoPOS {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: rgba(0, 155, 121, 0.12) !important;
+}
+.form-login {
+  padding: 24px !important;
+}
+.heading-login {
+  line-height: 39px !important;
+  margin: 0px !important;
+  margin-bottom: 2px !important;
+}
+.content-login {
+  margin: 0px !important;
+  color: #212b36 !important;
+}
+.borderLogin input {
+  width: 377px !important;
+  background-color: #ffffff !important;
+}
+.login-form-button {
+  position: absolute !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 12px 24px !important;
+  margin-top: 0px !important;
+  width: 163px !important;
+  height: 57px !important;
+  background-color: var(--color-btn) !important;
+  border-radius: 8px !important;
+}
+// Modal
+.ant-modal-content {
+  background-color: unset !important;
+  box-shadow: unset !important;
+}
+.ant-modal-close,
+.ant-btn-default,
+.ant-btn-primary {
+  display: none !important;
+}
+.login-form-button,
+.btn-sendform {
+  display: block !important;
+}
+.img-login {
+}
+
+// Iphone SE
+@media only screen and (max-width: 540px){
+  .logo-welcome {
+    display: flex !important;
+  }
+  .navbar,
+  .top-container-content,
+  .body-container-content {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+  .top-footer,
+  .bottom-footer {
+    margin-left: 50px !important;
+    margin-right: 50px !important;  
+  }
+  .navbar-size {
+    padding-left: 100px !important;
+  }
+  .card-list {
+    justify-content: center !important;
+  }
+  .ant-input-group .ant-input {
+    width: 89% !important;
+  }
+  .btn-sendform {
+    position: unset !important;
+    margin: auto;
+  }
+}

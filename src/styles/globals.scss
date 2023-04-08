@@ -1,0 +1,138 @@
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: $foreground-color inherit;
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: $foreground-color;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  @include scrollbars(12px, rgba(127, 127, 127, 1), inherit);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.light {
+  font-weight: 300 !important;
+}
+
+.normal {
+  font-weight: 400 !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.block {
+  display: block !important;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
+.center {
+  text-align: center;
+}
+
+svg {
+  margin: 0 5px;
+}
+
+button {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex !important;
+}
+
+.ant-menu-item-icon svg {
+  margin: 0px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mt-0 {
+  margin: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mt-5 {
+  margin: 5px 0 !important;
+}
+
+.mt-3 {
+  margin: 3px 0 !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.ant-table-column-sorter {
+  display: none;
+}
+
+.ant-input-affix-wrapper-status-error,
+.ant-select-status-error,
+.ant-input-number-affix-wrapper-status-error,
+.ant-input-number-status-error {
+  border-color: #d9d9d9 !important;
+}
+.ant-input-affix-wrapper-status-error,
+.ant-select-status-error {
+  .ant-select-selector {
+    border-color: #d9d9d9 !important;
+  }
+}

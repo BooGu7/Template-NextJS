@@ -1,0 +1,96 @@
+:root {
+  // MAIN
+  --main-primary-color: #007723;
+  --primary-dark-color: #018f11;
+  --main-dark-color: #00571a;
+  --main-darker-color: #004615;
+  --main-lighter-color: #b5f0c6;
+  --main-light-color: #47c56c;
+  // --main-primary-color: #00aa13;
+  // --main-dark-color: #018f11;
+
+  --transparent-primary-color-16: rgba(0, 119, 35, 0.16);
+
+  // GRAY
+  --transparent-gray-color-8: rgba(107, 114, 128, 0.08);
+  --transparent-gray-color-16: rgba(107, 114, 128, 0.16);
+
+  // SUCCESS
+  --success-primary-color: #2563eb;
+
+  // INFO
+  --info-lighter-color: #bfdbfe;
+  --info-light-color: #60a5fa;
+  --info-primary-color: #2563eb;
+  --info-dark-color: #1d4ed8;
+  --info-darker-color: #1e3a8a;
+
+  --transparent-info-color-16: rgba(37, 99, 235, 0.16);
+
+  // ERROR
+  --error-lighter-color: #fecaca;
+  --error-light-color: #f87171;
+  --error-primary-color: #dc2626;
+  --error-dark-color: #b91c1c;
+  --error-darker-color: #7f1d1d;
+
+  --transparent-error-color-16: rgba(220, 38, 38, 0.16);
+
+  // WARNING
+  --warning-lighter-color: #ffeaa8;
+  --warning-light-color: #ffd552;
+  --warning-primary-color: #f9bd00;
+  --warning-dark-color: #c99c0d;
+  --warning-darker-color: #a57d00;
+
+  --transparent-warning-color-16: rgba(249, 189, 0, 0.16);
+
+  // SUCCESS
+  --success-lighter-color: #abecfb;
+  --success-light-color: #5ad8f3;
+  --success-primary-color: #1cb8da;
+  --success-dark-color: #058eac;
+  --success-darker-color: #036c83;
+
+  --transparent-success-color-16: rgba(28, 184, 218, 0.16);
+
+  // BACKGROUND
+  --screen-color: #fbfbfc;
+  --card-color: #ffffff;
+  --neutral-color: #f3f4f6;
+  --light-neutral: #f4f6f8;
+
+  // TEXT
+  --text-primary-color: #1f2937;
+  --text-secondary-color: #6b7280;
+  --text-disable-color: #9ca3af;
+  --text-light-primary-color: #212b36;
+  --text-light-secondary-color: #637381;
+
+  --transparent-grey-color-16: rgba(107, 114, 128, 0.16);
+
+  // DIVIDER
+  --divider-color: rgba(107, 114, 128, 0.24);
+  --divider-modal-color: rgba(145, 158, 171, 0.24);
+
+  // ACTION STATES
+  --action-states-active: #6b7280;
+  --action-states-hover: rgba(107, 114, 128, 0.08);
+  --action-states-selected: rgba(107, 114, 128, 0.16);
+  --action-states-disabled: rgba(107, 114, 128, 0.8);
+  --action-states-disabled-background: rgba(107, 114, 128, 0.24);
+  --action-states-focus: rgba(107, 114, 128, 0.24);
+
+  --hover-opacity: 0.08;
+  --selected-opacity: 0.08;
+  --disabled-opacity: 0.48;
+  --focus-opacity: 0.12;
+  --activated-opacity: 0.12;
+
+  // COMMON
+  --black-color: #000;
+  --black-dark-color: #1e211e;
+
+  --white-color: #ffffff;
+  --border-color: #d0d5dd;
+}
